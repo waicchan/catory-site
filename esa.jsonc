@@ -1,9 +1,6 @@
 {
-  "name": "catory-site",
-  "installCommand": "",
-  "buildCommand": "",
-  "assets": {
-    "directory": "./",
-    "notFoundStrategy": "singlePageApplication"
+    "assets": {
+      "directory": "./",          // 静态资源根目录
+      "notFoundStrategy": "singlePageApplication"  // 配置SPA路由
+    }
   }
-}
